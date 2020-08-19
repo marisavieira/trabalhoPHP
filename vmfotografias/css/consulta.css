@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+#primeiralinha{
+	background-color: rgba(223, 228, 234, 0.8);
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+	font-size: 30px;
+}
+
+#dados{
+	background-color: rgba(241, 242, 246, 0.7);
+	width: 60%;	
+	font-family: 'Raleway', sans-serif;	
+	font-size: 100px;
+	margin-left: 20%;	
+	border: 2px solid black;
+}
+
+#titulo{
+	margin-top: 30px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30pt;
+	margin-bottom:50px;	
+	margin-left: 60px;
+}
+
+#main{
+	text-align: center;
+}
+
+#sair{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+	border:3px solid black;
+	padding: 10px;
+	float: right;
+	margin-right: 15px;
+} 

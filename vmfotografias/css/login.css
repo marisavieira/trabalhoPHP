@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  'Open Sans Condensed', cursive;
+
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid black;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid black;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 15px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  font-family:  'Open Sans Condensed', cursive;
+  width: 100%;
+  background: none;
+  border: 2px solid black;
+  color: black;
+  padding: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 12px 0;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+#titulo{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30pt;
+	margin-bottom:50px;
+}
+
+.esquerda1, .direita1, .esquerda2, .direita2, .esquerda3, .direita3, .esquerda4, .direita4, .esquerda5, .direita5{	
+	width:44%;
+	height: 450px;	
+	margin-bottom:100px;
+	padding-top:0;		
+	background-size: cover;
+	-webkit-filter:grayscale(60%);
+}
+
+.esquerda1, .esquerda2, .esquerda3, .esquerda4, .esquerda5{
+	float:left;	
+	margin-left: 5%;
+	margin-right: 1%;
+	
+}
+.direita1, .direita2, .direita3, .direita4, .direita5{
+	float:right;
+	margin-right: 5%;
+	margin-left: 1%;
+}
+
+.esquerda1:hover, .esquerda2:hover, .direita1:hover, .direita2:hover, .esquerda3:hover, .direita3:hover, .esquerda4:hover, .direita4:hover, .esquerda5:hover, .direita5:hover{
+	-webkit-filter:grayscale(0%);
+    transition: 1s;	
+}
+
+.esquerda1 p, .esquerda2 p, .esquerda3 p, .direita1 p, .direita2 p, .direita3 p,.esquerda4 p, .direita4 p, .esquerda5 p, .direita5 p{
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25pt;
+	background-color: rgba(241, 242, 246, 0.7);
+	margin-top:455px;
+	
+}
+
+.album{
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
+}
+
+#link{
+	text-decoration: none;
+	color: black;
+}
+
+#frase{
+	text-align: justify;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18pt;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+
+
+#vertical{
+	width: 39%;
+	height: 50%;
+	margin: 10px;
+}
+
+.coluna{
+	float: left;
+	width: 100%;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}

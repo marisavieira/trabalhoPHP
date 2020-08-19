@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+section#unica form#formcontato{
+	width: 90%;
+	margin: auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color:rgba(241, 242, 246, 0.7);	
+	text-align: justify;
+	font-size: 165%;
+	color: #444540;
+}
+
+section#unica form#formcontato input, textarea, select {
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(255,255,255,0.8);
+	color: #444540;	
+	font-size: 65%;
+	padding: 10px;
+}
+
+section#unica form#formcontato fieldset{
+	border: 2px solid black;
+	padding: 10px;
+}
+
+#titulo{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30pt;
+	margin-bottom:50px;
+}
+
+#frase{
+	text-align: justify;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18pt;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+#mnlogin{
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+	color: black;
+	border:3px solid black;
+	padding: 10px;
+	margin-top: 15px;
+	position: absolute;
+	margin-left: 45%;
+} 

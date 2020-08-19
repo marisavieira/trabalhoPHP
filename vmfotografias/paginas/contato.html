@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">	
+	<head>
+		<meta charset="utf-8">
+		<title>CONTATO | VM Fotografia</title>
+		<link rel="stylesheet" href="../css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="../css/contato.css"/>
+		<link rel="sortcut icon" href="../imagens/icon.png" type="image/x-icon" /> <!-- Para colocar o icon na barra de endereco-->
+		<link rel="stylesheet" type="text/css" href="../css/horas.css"/>		
+		<script type="text/javascript" src="../js/horas.js"></script>
+	</head>
+	  
+	<body onload="Tempo()">
+	
+			<header> 
+				<div class="logomarca">
+					<img src="../imagens/logo1.png">				
+					<nav class="menu" align="center">					
+						<ul>						
+							<a id="nselecionado" href="../index.html">Home</a>
+							<a id="nselecionado" href="fotografia.html">Fotografias</a>
+							<a id="nselecionado" href="album.html">Álbuns</a>
+							<a id="selecionado" href="#">Contato</a>
+						</ul>		
+					</nav>	
+				</div> 
+			</header>	
+			
+			<div id="interface">
+				<p id="semana"></p> <p id="data"></p>
+				
+			</div>
+					
+			
+			<p id="titulo"> CONTATO <p>
+			
+			<p id="frase"> Para solicitar orçamentos ou outras informações, preencha o formulário ou ligue (35) 99818 2143, de segunda à sexta, das 09h às 18h.
+				<p>
+			
+			<section id="unica">
+				<form method="POST" action="../php/enviar.php" id="formcontato"> 
+					<fieldset id="usuario">
+												
+						<center>
+						
+					
+						<p><input type="text" name="nome" id="txtnome" size="40%" maxlength="50" placeholder=" Nome completo" /> </p>						
+
+						<p> <input type="email" name="email" id="txtemail" size="40%" maxlength="50" placeholder=" Email" /></p>
+						
+						<p><label for="data">Data proposta: </label>
+							<input type="date" class="form-control" name="data"  id="data" placeholder="Digite a data da viagem"/>
+						</p>
+												
+						<p><textarea cols="40%" rows="2" maxlength="100" name="descoberta" id="descoberta" placeholder="Como nos conheceu?"></textarea></p>
+						
+						<p><textarea cols="40%" rows="3" maxlength="200" name="mensagem" id="mensagem" placeholder=" Digite sua mensagem aqui"></textarea></p>
+						
+						<input type="submit" value="Enviar" />
+						<input type="reset" value="Limpar" />
+						
+						
+						</center>
+						
+					</fieldset>					
+				</form>
+			</section>	
+			
+			<a id="mnlogin" href="http://localhost/vmfotografias/php/login.php">Entrar como administrador</a>	
+			
+			<br/><br/><br/><br/><br/>
+			
+			
+			<footer> © Todos direitos reservados. </footer>
+			
+	</body>
+</html>
